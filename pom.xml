@@ -1,0 +1,51 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @dingxiaoling1018
+ Watch 44
+  Star 280
+  Fork 247 marhan/effective-java-examples
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs
+Branch: master Find file Copy patheffective-java-examples/pom.xml
+77d193e  on 5 Apr 2014
+@marhan marhan Source Level set to 1.7
+1 contributor
+RawBlameHistory     33 lines (33 sloc)  1.27 KB
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>effective-java-examples</groupId>
+    <artifactId>effective-java-examples</artifactId>
+    <version>1.0</version>
+    <name>effective-java-examples</name>
+    <description>Source code to the book "Effective Java Second Edition" created by Joshua Bloch</description>
+    <url>http://java.sun.com/docs/books/effective/index.html</url>
+    <organization>
+        <name>Joshua Bloch</name>
+        <url>http://java.sun.com/docs/books/effective/index.html</url>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
